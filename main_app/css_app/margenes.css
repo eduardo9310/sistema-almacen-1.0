@@ -1,0 +1,60 @@
+.container {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.input-group-addon, #ubicacion_sucursal {
+	position: inherit;
+
+} 
+
+.panel-heading
+p {
+	font-size: 23px;
+}
+
+#btn-crear,
+#btn-listar {
+	margin-bottom: 15px;
+	margin-top: -5px; 
+	margin-left: 46%;
+	width: 160px;
+	font-size: 15px;
+}
+
+
+.container 
+.panel-group 
+.panel 
+.panel-body 
+.form-group 
+.input-group {
+		margin-top: 5px;
+	}
+
+
+@media(min-width:768px) {
+
+	.container {
+		margin-left: 250px;
+		width: calc(100% - 250px);
+	}
+
+	.input-group {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 12px;
+	}
+
+	#btn-crear,
+	#btn-listar {
+		margin-left: 81%;
+		width: 150px;
+		font-size: 15px;
+	}
+
+}
+
+body {
+	background: #fff;
+}

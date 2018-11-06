@@ -1,0 +1,36 @@
+
+.user-container-crear{
+  margin: 2px;
+  border: solid red 1px;
+  position: none;
+}
+
+.btn-gruop {
+  text-align: right;
+  margin-right: 30px;
+}
+@media screen and (min-width: 600px) {
+  .user-container-crear{
+    position: absolute;
+    margin-left: 75px;
+    width: calc(100% - 80px);
+  }
+
+
+}
+
+@media screen and (min-width: 800px) {
+
+  .user-container-crear{
+    /*display: none;*/
+    position: absolute;
+    margin-left: 200px;
+    margin-right: 10px;
+    width: calc(100% - 220px);
+    border: solid red 1px;
+  }
+
+
+
+
+}

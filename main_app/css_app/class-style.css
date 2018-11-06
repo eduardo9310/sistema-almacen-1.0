@@ -1,0 +1,100 @@
+
+.dashboard {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.dashboard .card {
+	width: 165px;
+	height: 180px;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 10px;
+	z-index: 1000;
+	color: #ffffff;
+	opacity: .68;
+	margin-top: 15px; 
+}
+
+.dashboard .card .card-title {
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 10px; 
+	margin-bottom: 10px; 
+	padding: 15px;
+	background: rgba(121, 85, 72, 0.7);
+	border-radius: 10px;
+	opacity: .75;
+
+}
+
+.dashboard .card .card-text {
+	font-size: 40px;
+	margin: 0 auto;
+	width: 70px;
+	height: 70px;
+	background: rgba(3, 169, 244, 0.9);
+	padding-top: 10px;
+	border-radius: 100%;
+	opacity: ;
+	color: red;
+	font-weight: 900;
+}
+
+
+
+.bg-color {
+	background: #fff; 
+}
+
+/*Clases de Colores*/
+
+.warning-color {
+	background: #FF8800;
+}
+
+.sucess-color {
+	background: #007E33;
+}
+
+.info-color {
+	background: #3F729B;
+}
+
+
+.primary-color {
+	background: #4285F4;
+}
+
+
+/*Pantalla Screen Desktop*/
+@media(min-width:768px) {
+	body,
+	html {
+		height: 100%;
+	}
+
+	.dashboard {
+		text-align: center;
+		width: calc(100% - 250px);
+		height: calc(100% - 45px);
+		margin-left: 250px;
+		padding: 20px;
+	}
+	
+	.dashboard .card {
+		margin: 20px;
+		width: 400px;
+		height: 200px;
+		display: inline-block;
+	}
+
+	.dashboard .card .card-text {
+		font-size: 40px;
+		width: 100px;
+		height: 100px;
+		padding-top: 20px;
+		margin-top: 20px; 
+}
+}
